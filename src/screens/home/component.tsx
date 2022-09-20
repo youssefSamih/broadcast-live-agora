@@ -57,7 +57,7 @@ export const Home: React.FC<Props<'Home'>> = ({
 
   async function onSubmit() {
     if (channelName?.trim().length === 0) {
-      setErrorText('You must provide app id and channel name');
+      setErrorText('You must provide channel name');
 
       return;
     }
